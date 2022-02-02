@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-@file:JsQualifier("THREE")
+@file:JsModule("three/examples/jsm/exporters/OBJExporter")
 
 package info.laht.threekt.external.exporters
 

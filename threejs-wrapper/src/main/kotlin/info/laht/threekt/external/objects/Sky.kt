@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-@file:JsQualifier("THREE")
+@file:JsModule("three/examples/jsm/objects/Sky")
 
 package info.laht.threekt.external.objects
 

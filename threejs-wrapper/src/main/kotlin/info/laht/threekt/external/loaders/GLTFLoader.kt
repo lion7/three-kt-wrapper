@@ -1,4 +1,4 @@
-@file:JsQualifier("THREE")
+@file:JsModule("three/examples/jsm/loaders/GLTFLoader")
 
 package info.laht.threekt.external.loaders
 

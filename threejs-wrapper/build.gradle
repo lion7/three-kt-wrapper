@@ -1,6 +1,0 @@
-
-apply from: rootProject.file("gradle/mavenpublish.gradle")
-
-compileKotlin2Js {
-    kotlinOptions.moduleKind = "umd"
-}

@@ -24,6 +24,14 @@
 
 package info.laht.threekt
 
+import kotlinx.browser.window
+
+fun threeInitialize() {
+        window.asDynamic()["THREE"] = THREE
+}
+
+@JsModule("three")
+@JsNonModule
 external object THREE {
 
         val REVISION: String

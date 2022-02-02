@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-@file:JsQualifier("THREE")
+@file:JsModule("three/examples/jsm/loaders/OBJLoader")
 
 package info.laht.threekt.external.loaders
 
