@@ -36,7 +36,7 @@ open external class Points : Object3D {
     var geometry: dynamic
     var material: Material
 
-    fun raycast(raycaster: Raycaster, intercects: List<Intersect>)
+    fun raycast(raycaster: Raycaster, intersects: Array<Intersect>)
 
     fun clone() : Points
 

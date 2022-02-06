@@ -36,7 +36,7 @@ open external class Line : Object3D {
     var geometry: BufferGeometry
     var material: Material
 
-    fun raycast(raycaster: Raycaster, intercects: List<Intersect>)
+    fun raycast(raycaster: Raycaster, intersects: Array<Intersect>)
 
     fun clone() : Line
 

@@ -41,7 +41,7 @@ open external class LOD : Object3D {
 
     fun getObjectForDistance(distance: Double) : Object3D
 
-    fun raycast(raycaster: Raycaster, intercects: List<Intersect>)
+    fun raycast(raycaster: Raycaster, intersects: Array<Intersect>)
 
     fun update(camera: Camera)
 

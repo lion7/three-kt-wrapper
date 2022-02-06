@@ -37,7 +37,7 @@ open external class Sprite(
 
     var material: Material
 
-    fun raycast(raycaster: Raycaster, intersects: List<Intersect>)
+    fun raycast(raycaster: Raycaster, intersects: Array<Intersect>)
 
     fun clone() : Sprite
 

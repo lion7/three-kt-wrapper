@@ -41,7 +41,7 @@ open external class Mesh : Object3D {
 
     fun copy(source: Mesh) : Mesh
     fun updateMorphTargets()
-    fun raycast(raycaster: Raycaster, intersects: List<Intersect> )
+    fun raycast(raycaster: Raycaster, intersects: Array<Intersect> )
     fun clone() : Mesh
 
 }

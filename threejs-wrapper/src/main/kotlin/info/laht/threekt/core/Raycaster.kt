@@ -61,8 +61,8 @@ open external class Raycaster {
 
     fun setFromCamera(coord: Vector2, camera: Camera)
 
-    fun intersectObject(object3D: Object3D, recursive: Boolean) : List<Intersect>
+    fun intersectObject(object3D: Object3D, recursive: Boolean) : Array<Intersect>
 
-    fun intersectObjects(objects: List<Object3D>, recursive: Boolean) : List<Intersect>
+    fun intersectObjects(objects: Array<Object3D>, recursive: Boolean) : Array<Intersect>
 
 }
